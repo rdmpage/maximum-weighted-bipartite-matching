@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <ctime>
+#include <cstdlib>
+#include <cstring>
 
 #include <GTL/GTL.h>
 #include "mygraph.h"
