@@ -12,8 +12,26 @@ The program uses the Graph Template Library (GTL) which is available from [http:
 #### Building
 If you are building from this repository you will need to do the standard things:
 
-aclocal
-autoconf
-automake
-./configure
-make
+* aclocal
+* autoconf
+* automake
+* ./configure
+* make
+
+#### Example
+
+The examples folder contains a bipartite graph:
+
+![Example](https://github.com/rdmpage/maximum-weighted-bipartite-matching/raw/master/examples/bipartite.png)
+
+Running the program on this graph
+
+* matching examples/bipartite.gml
+
+outputs the matching in JSON. The source nodes in the graph are numbered 0 - m, the target nodes m+1 - n.
+
+```javascript
+{
+"matching":[[1,4],[0,5],[2,6],[3,8]]
+}
+```
