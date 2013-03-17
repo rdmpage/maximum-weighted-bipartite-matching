@@ -8,6 +8,7 @@
 	#endif
 #endif
 #include <sstream>
+#include <cstring>
 
 void MyGraph::load_edge_info_handler (edge e, GML_pair* list)
 {
