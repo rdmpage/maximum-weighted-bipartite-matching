@@ -17,20 +17,3 @@ autoconf
 automake
 ./configure
 make
-
-#### Example
-
-The examples folder contains a bipartite graph:
-![Example](https://github.com/rdmpage/maximum-weighted-bipartite-matching/raw/master/examples/bipartite.png)
-
-Running 
-
-matching examples/bipartite.gml
-
-outputs the matching in JSON. The source nodes in the graph are numbered 0 - m, the target nodes m+1 - n.
-
-```javascript
-{
-"matching":[[1,4],[0,5],[2,6],[3,8]]
-}
-```
