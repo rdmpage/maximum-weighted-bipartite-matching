@@ -3,6 +3,8 @@
 *.lo
 *.o
 
+/matching
+
 # Compiled Dynamic libraries
 *.so
 *.dylib

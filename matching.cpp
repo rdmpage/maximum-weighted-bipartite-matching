@@ -109,10 +109,8 @@ int main (int argc, const char * argv[])
 		G.hide_edge(*lit);
 		lit++;
 	}
-	
+		
 	// The matching
-	int numMatches = L.size();
-	int *order = new int[numMatches];
 		
 	// JSON	
 	// Output a list of the ordering of the second list versus the first
@@ -128,8 +126,6 @@ int main (int argc, const char * argv[])
 		node a = e.source();
 		node b = e.target();
 		
-		order[b.id()] = a.id();	
-		
 		cout << "[" << b.id() << "," << a.id() << "]";
 		
 		it++;
@@ -138,7 +134,6 @@ int main (int argc, const char * argv[])
 		{
 			cout << ",";
 		}
-		//cout << endl;
 	}
 	cout << "]\n";
 	cout << "}\n";	
