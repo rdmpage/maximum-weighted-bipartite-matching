@@ -1,9 +1,10 @@
 # Compiled Object files
 *.slo
+*.Po
 *.lo
 *.o
 
-/matching
+./matching
 
 # Compiled Dynamic libraries
 *.so
@@ -13,6 +14,9 @@
 *.lai
 *.la
 *.a
+
+*.log
+*.status
 
 # http://www.gnu.org/software/automake
 
