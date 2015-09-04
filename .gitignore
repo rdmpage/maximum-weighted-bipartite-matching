@@ -4,7 +4,7 @@
 *.lo
 *.o
 
-./matching
+/matching
 
 # Compiled Dynamic libraries
 *.so
