@@ -18,6 +18,10 @@ If you are building from this repository you will need to do the standard things
 * ./configure
 * make
 
+If you get errors about missing files, such as COPYING, you will need to do the following:
+
+* automake —add-missing
+
 #### Example
 
 The examples folder contains a bipartite graph:
