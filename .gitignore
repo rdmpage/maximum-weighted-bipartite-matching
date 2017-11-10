@@ -3,6 +3,7 @@
 *.Po
 *.lo
 *.o
+*.o*
 
 /matching
 

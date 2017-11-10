@@ -22,6 +22,13 @@ If you get errors about missing files, such as COPYING, you will need to do the 
 
 * automake —add-missing
 
+#### Notes on building on a Mac
+If you are building on a clean, new Mac (e.g., macOS Sierra) you may need to install the install some missing GNU tools, see [Install Autoconf and Automake on OS X El Capitan](https://gist.github.com/justinbellamy/2672db1c78f024f2d4fe). I also had to run
+```
+autoreconf -i
+```
+To get past the error **possibly undefined macro: AM_INIT_AUTOMAKE**
+
 #### Example
 
 The examples folder contains a bipartite graph:
