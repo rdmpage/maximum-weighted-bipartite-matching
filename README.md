@@ -49,7 +49,9 @@ graph TD
 
 Running the program on this graph
 
-* matching examples/bipartite.gml
+```
+matching examples/bipartite.gml
+```
 
 outputs the matching in JSON. The source nodes in the graph are numbered 0 - m, the target nodes m+1 - n.
 
