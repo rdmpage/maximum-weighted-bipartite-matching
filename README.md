@@ -33,6 +33,20 @@ To get past the error **possibly undefined macro: AM_INIT_AUTOMAKE**
 
 The examples folder contains a bipartite graph:
 
+```
+graph TD
+    1 --> D
+    1 --> A
+    1 --> B
+    2 --> A
+    2 --> C
+    4 --> B
+    4 --> C
+    4 --> E
+    3 --> C
+    3 --> E
+```mermaid
+
 ![Example](https://github.com/rdmpage/maximum-weighted-bipartite-matching/raw/master/examples/bipartite.png)
 
 Running the program on this graph
