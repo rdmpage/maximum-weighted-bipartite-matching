@@ -12,15 +12,19 @@ The program uses the Graph Template Library (GTL) which is available from [http:
 #### Building
 If you are building from this repository you will need to do the standard things:
 
-* aclocal
-* autoconf
-* automake
-* ./configure
-* make
+```
+aclocal
+autoconf
+automake
+./configure
+make
+```
 
 If you get errors about missing files, such as COPYING, you will need to do the following:
 
-* automake —add-missing
+```
+automake --add-missing`
+```
 
 #### Notes on building on a Mac
 If you are building on a clean, new Mac (e.g., macOS Sierra) you may need to install the install some missing GNU tools, see [Install Autoconf and Automake on OS X El Capitan](https://gist.github.com/justinbellamy/2672db1c78f024f2d4fe). I also had to run
@@ -28,6 +32,8 @@ If you are building on a clean, new Mac (e.g., macOS Sierra) you may need to ins
 autoreconf -i
 ```
 To get past the error **possibly undefined macro: AM_INIT_AUTOMAKE**
+
+On macOS Monterey I had to run `autoupdate` after `autoconf`.
 
 #### Example
 
