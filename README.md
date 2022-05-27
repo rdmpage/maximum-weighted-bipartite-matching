@@ -47,8 +47,6 @@ graph TD
     3 --> E
 ```
 
-![Example](https://github.com/rdmpage/maximum-weighted-bipartite-matching/raw/master/examples/bipartite.png)
-
 Running the program on this graph
 
 * matching examples/bipartite.gml
